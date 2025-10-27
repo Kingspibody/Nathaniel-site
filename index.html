@@ -1,0 +1,249 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nignatoni N. Nathaniel | Nathaniel Digitalz</title>
+  <meta name="description" content="Portfolio of Nignatoni N. Nathaniel — Graphic Designer, Content Creator, and Digital Products seller. View work samples, services, and contact via WhatsApp." />
+  <meta name="author" content="Nignatoni N. Nathaniel" />
+  <meta property="og:title" content="Nignatoni Digitalz" />
+  <meta property="og:description" content="Graphic Designer • Content Creator • Pro Apps" />
+  <meta property="og:image" content="https://i.imgur.com/IH8b6aS.jpeg" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0d15" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  $1
+  <link rel="icon" type="image/jpeg" href="https://i.imgur.com/IH8b6aS.jpeg"/>
+  <link rel="apple-touch-icon" href="https://i.imgur.com/IH8b6aS.jpeg"/>
+  <style>
+    :root{
+      --bg:#0b0d15; --card:#111525; --text:#e9eef6; --muted:#9aa4b2;
+      --brand:#00e6a8; --brand2:#6b8cff; --accent:#ffb703; --max:1100px;
+      --radius:18px; --shadow:0 14px 40px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--text);font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+    a{color:inherit;text-decoration:none}
+    img{display:block;max-width:100%}
+    .container{max-width:var(--max);margin:0 auto;padding:20px}
+    /* NAV */
+    header.site{position:sticky;top:0;z-index:50;background:rgba(11,13,21,.7);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:14px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand .avatar{width:40px;height:40px;border-radius:50%;overflow:hidden;border:2px solid rgba(255,255,255,.18)}
+    .brand h1{font-size:18px;font-weight:700;margin:0}
+    .menu{display:flex;gap:8px;flex-wrap:wrap}
+    .btn{padding:10px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.02);transition:.2s;font-weight:600}
+    .btn:hover{background:rgba(255,255,255,.08)}
+    .btn.primary{background:linear-gradient(135deg,var(--brand2),var(--brand));border:none;box-shadow:0 12px 26px rgba(0,230,168,.18)}
+    /* HERO */
+    .hero{padding:56px 0}
+    .hero-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .hero-card{padding:28px}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)}
+    .dot{width:8px;height:8px;border-radius:50%;background:var(--brand);box-shadow:0 0 12px var(--brand)}
+    h2.title{font-size:40px;line-height:1.12;margin:12px 0}
+    .lead{color:var(--muted);margin:0 0 18px}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 20px}
+    .badge{font-size:12px;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)}
+    .portrait{display:flex;align-items:center;justify-content:center}
+    .portrait .ring{padding:6px;border-radius:50%;background:linear-gradient(135deg,var(--brand2),var(--brand));}
+    .portrait img{width:340px;height:340px;border-radius:50%;object-fit:cover;background:#000}
+    /* SECTION */
+    section{margin:56px 0}
+    .section-title{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+    .section-title h3{margin:0;font-size:26px}
+    .grid{display:grid;gap:20px}
+    /* ABOUT */
+    .about{grid-template-columns:1.2fr .8fr}
+    .about p{color:var(--muted)}
+    .socials{display:flex;flex-wrap:wrap;gap:10px}
+    .socials a{padding:10px 14px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(255,255,255,.04)}
+    /* SERVICES */
+    .services{grid-template-columns:repeat(3,1fr)}
+    .service{padding:18px}
+    .service h4{margin:0 0 6px}
+    .service p{margin:0;color:var(--muted)}
+    /* PRODUCTS */
+    .products{grid-template-columns:repeat(3,1fr)}
+    .meta{font-size:13px;color:var(--muted)}
+    /* GALLERY */
+    .gallery{grid-template-columns:repeat(3,1fr)}
+    .shot{border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.08);transition:transform .25s, box-shadow .25s}
+    .shot img{width:100%;height:260px;object-fit:cover}
+    .shot:hover{transform:translateY(-4px);box-shadow:0 18px 46px rgba(0,0,0,.38)}
+    /* CONTACT */
+    .contact .row{display:flex;gap:12px;flex-wrap:wrap}
+    /* FOOTER */
+    footer{margin-top:56px;padding:34px 0;border-top:1px solid rgba(255,255,255,.08);color:var(--muted)}
+    /* RESPONSIVE */
+    @media (max-width:1000px){
+      .hero-wrap{grid-template-columns:1fr}
+      .about{grid-template-columns:1fr}
+      .services,.products,.gallery{grid-template-columns:repeat(2,1fr)}
+      .portrait img{width:260px;height:260px}
+    }
+    @media (max-width:640px){
+      .services,.products,.gallery{grid-template-columns:1fr}
+      h2.title{font-size:32px}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Nignatoni N. Nathaniel",
+    "url": "",
+    "image": "https://i.imgur.com/IH8b6aS.jpeg",
+    "jobTitle": "Graphic Designer, Content Creator",
+    "email": "Kingspibody@gmail.com",
+    "sameAs": [
+      "https://www.instagram.com/spibo_dy?igsh=NHNiNDMzNDQ3ZWc1",
+      "https://www.facebook.com/profile.php?id=61581331947056",
+      "https://www.youtube.com/@Kingspibody",
+      "https://wa.me/message/RWQSS6FCQIELI1"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site">
+    <div class="container nav">
+      <div class="brand">
+        <div class="avatar"><img src="https://i.imgur.com/IH8b6aS.jpeg" alt="Profile avatar of Nignatoni" width="40" height="40" loading="eager"></div>
+        <div>
+          <h1>Nathaniel Digitalz</h1>
+          <div style="font-size:12px;color:var(--muted)">Personal brand of Nignatoni N. Nathaniel</div>
+        </div>
+      </div>
+      <nav class="menu">
+        <a class="btn" href="#portfolio">Portfolio</a>
+        <a class="btn" href="#services">Services</a>
+        <a class="btn" href="#products">Products</a>
+        <a class="btn primary" href="https://wa.me/message/RWQSS6FCQIELI1" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>  <!-- HERO -->  <main class="container">
+    <section class="hero" id="home">
+      <div class="hero-wrap">
+        <div class="hero-card card">
+          <div class="eyebrow"><span class="dot"></span> Graphic Designer • Content Creator • Pro Apps</div>
+          <h2 class="title">Hi, I’m <span style="color:var(--brand)">Nignatoni N. Nathaniel</span> — I design visuals that sell & stories that stick.</h2>
+          <p class="lead">Brand identities, posters, thumbnails, and content systems that help creators and businesses win attention and convert it into results.</p>
+          <div class="badges">
+            <span class="badge">Branding & Logo</span>
+            <span class="badge">Posters & Thumbnails</span>
+            <span class="badge">Short-form Content</span>
+            <span class="badge">Digital Products</span>
+          </div>
+          <div class="menu">
+            <a class="btn primary" href="https://wa.me/message/RWQSS6FCQIELI1" target="_blank" rel="noopener">Start on WhatsApp</a>
+            <a class="btn" href="#portfolio">See Work</a>
+          </div>
+        </div>
+        <div class="portrait">
+          <div class="ring">
+            <img src="https://i.imgur.com/IH8b6aS.jpeg" alt="Portrait of Nignatoni" width="340" height="340"/>
+          </div>
+        </div>
+      </div>
+    </section><!-- ABOUT -->
+<section id="about">
+  <div class="section-title"><h3>About Me</h3></div>
+  <div class="grid about">
+    <div class="card" style="padding:20px">
+      <p>I’m a graphic designer and content creator focused on clean layouts, bold color, and clear messaging. I also provide select <strong>digital products</strong> that help creators and businesses work faster and better.</p>
+      <p class="meta">Across GH 🇬🇭 & LR 🇱🇷 • 5+ years • 100+ projects</p>
+    </div>
+    <div class="card" style="padding:20px">
+      <div class="socials">
+        <a href="https://wa.me/message/RWQSS6FCQIELI1" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.instagram.com/spibo_dy?igsh=NHNiNDMzNDQ3ZWc1" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61581331947056" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.youtube.com/@Kingspibody" target="_blank" rel="noopener">YouTube</a>
+        <a href="mailto:Kingspibody@gmail.com">Email</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-title">
+    <h3>Services</h3>
+    <a class="btn" href="https://wa.me/message/RWQSS6FCQIELI1" target="_blank" rel="noopener">Request a Quote</a>
+  </div>
+  <div class="grid services">
+    <div class="card service"><h4>Branding & Identity</h4><p>Logos, brand kits, color & type systems, usage guides.</p></div>
+    <div class="card service"><h4>Social Content</h4><p>High-performing posters, reels covers, and YouTube thumbnails.</p></div>
+    <div class="card service"><h4>Content Strategy</h4><p>Hooks, scripts, and monthly content calendars that stay on-brand.</p></div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="section-title"><h3>Digital Products</h3><span class="meta">Curated tools for creators & businesses</span></div>
+  <div class="grid products">
+    <div class="card" style="padding:18px">
+      <h4>Design Templates Pack</h4>
+      <p>Ready-to-edit flyer, poster, and thumbnail templates to speed up your workflow.</p>
+      <div class="meta">PSD/PNG • Instant access</div>
+      <div style="margin-top:10px"><a class="btn" href="https://wa.me/message/RWQSS6FCQIELI1" target="_blank">Get It</a></div>
+    </div>
+    <div class="card" style="padding:18px">
+      <h4>Content Hooks Library</h4>
+      <p>200+ proven hooks for X, Instagram, and YouTube to boost engagement.</p>
+      <div class="meta">PDF/Notion • Instant access</div>
+      <div style="margin-top:10px"><a class="btn" href="https://wa.me/message/RWQSS6FCQIELI1" target="_blank">Get It</a></div>
+    </div>
+    <div class="card" style="padding:18px">
+      <h4>Pro App Setup (Consult)</h4>
+      <p>Personalized recommendations and setup for your creative tool stack.</p>
+      <div class="meta">45–60 mins</div>
+      <div style="margin-top:10px"><a class="btn" href="https://wa.me/message/RWQSS6FCQIELI1" target="_blank">Book Now</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="section-title"><h3>Selected Work</h3><span class="meta">Recent projects & visuals</span></div>
+  <div class="grid gallery">
+    <a class="shot" href="https://i.imgur.com/mtqnKVz.jpeg" target="_blank" rel="noopener"><img loading="lazy" src="https://i.imgur.com/mtqnKVz.jpeg" alt="Work 1"></a>
+    <a class="shot" href="https://i.imgur.com/IH8b6aS.jpeg" target="_blank" rel="noopener"><img loading="lazy" src="https://i.imgur.com/IH8b6aS.jpeg" alt="Work 2"></a>
+    <a class="shot" href="https://i.imgur.com/hJJTQk8.png" target="_blank" rel="noopener"><img loading="lazy" src="https://i.imgur.com/hJJTQk8.png" alt="Work 3"></a>
+    <a class="shot" href="https://i.imgur.com/j7AvkJ6.png" target="_blank" rel="noopener"><img loading="lazy" src="https://i.imgur.com/j7AvkJ6.png" alt="Work 4"></a>
+    <a class="shot" href="https://i.imgur.com/7bddBBC.png" target="_blank" rel="noopener"><img loading="lazy" src="https://i.imgur.com/7bddBBC.png" alt="Work 5"></a>
+    <a class="shot" href="https://i.imgur.com/LM9fGkM.jpeg" target="_blank" rel="noopener"><img loading="lazy" src="https://i.imgur.com/LM9fGkM.jpeg" alt="Work 6"></a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-title"><h3>Let’s Work</h3></div>
+  <div class="card contact" style="padding:20px">
+    <p class="meta">Tell me about your project; I’ll reply with next steps and a quote.</p>
+    <div class="row">
+      <a class="btn primary" href="https://wa.me/message/RWQSS6FCQIELI1" target="_blank" rel="noopener">Message on WhatsApp</a>
+      <a class="btn" href="mailto:Kingspibody@gmail.com">Email: Kingspibody@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+  </main>  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div>© <span id="y"></span> Nathaniel Digitalz • All rights reserved.</div>
+      <div class="socials">
+        <a href="https://www.instagram.com/spibo_dy?igsh=NHNiNDMzNDQ3ZWc1" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61581331947056" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.youtube.com/@Kingspibody" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
